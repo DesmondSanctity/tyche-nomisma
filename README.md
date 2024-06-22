@@ -1,4 +1,5 @@
 ### tyche-nomisma
+An AI tool that you can use to get currency pair update via Whatsapp. Built with [Hono.js](https://hono.dev/), Twilio(serverless functions & whatsapp) and Cloudflare Workers AI.
 
 ### prerequisite to run project
 - Cloudflare account(with your terminal authenticated with wrangler CLI) [Read more here](https://developers.cloudflare.com/workers/wrangler/commands/#login)
@@ -16,14 +17,14 @@ CLOUDFLARE_ACCOUNT_ID = ""
 TWILIO_PHONE_NUMBER = ""
 ```
 
-### step 2
+### step 2 (run locally)
 - run the following commands to install dependencies and start the dev server respectively.
 ```bash
 npm install
 npm run dev
 ```
 
-### step 3
+### step 3 (deploy to prod)
 - you should store your secret to cloudflare workers for production use using the command below. where key is the secret name eg: CLOUDFLARE_API_KEY
 ```bash
 npx wrangler secret put <KEY>
