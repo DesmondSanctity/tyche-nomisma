@@ -5,6 +5,7 @@ main = "src/index.js"
 
 [site]
 bucket = "./public"
+
 # [vars]
 # MY_VAR = "my-variable"
 

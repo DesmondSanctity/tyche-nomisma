@@ -50,15 +50,14 @@ export const homeHTML = html`
       </a>
       <a
        class="text-sm font-medium hover:underline underline-offset-4 text-primary"
-       href="https://github.com/desmondsanctity/tyche-nomisma"
+       href="#"
        rel="ugc"
-       target="_blank"
       >
        About
       </a>
       <a
        class="text-sm font-medium hover:underline underline-offset-4 text-primary"
-       href="mailto:desmond.obisi.g20@gmail.com"
+       href="#"
        rel="ugc"
       >
        Contact
@@ -117,7 +116,7 @@ export const homeHTML = html`
         </p>
         <a
          class="inline-flex h-10 items-center justify-center rounded-md bg-black px-8 text-sm font-medium text-white shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-         href="/schedule"
+         href="/start"
          rel="ugc"
         >
          Get Started
